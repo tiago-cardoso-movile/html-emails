@@ -1,7 +1,9 @@
 
-Html Emails Templates @Movile @PlayKids using Foundation Framework
+# Html Emails Templates @Movile @PlayKids using Foundation Framework
 
-# Foundation for Emails Template
+-- >> view emails in /src/pages/
+
+Foundation for Emails Template
 
 [![devDependency Status](https://david-dm.org/zurb/foundation-emails-template/dev-status.svg)](https://david-dm.org/zurb/foundation-emails-template#info=devDependencies)
 
