@@ -1,0 +1,121 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #f3f3f3 !important;
+}
+
+.container.header {
+  background: #f3f3f3;
+}
+
+.container.header p {
+  font-size: 12px;
+  color: #333333;
+}
+
+.body-drip {}
+
+
+.logo{
+  width: 132px;
+  height:113px;
+}
+
+// Full Width Headers
+.header {
+  background: #8a8a8a;
+}
+
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  padding-top: 15px;
+}
+
+.header .wrapper-inner {
+  padding: 20px;
+}
+
+.header .container {
+  background: transparent;
+}
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
+
+
+// CUSTOM
+
+.font-bold{
+  font-weight: 700;
+}
+
+.email-placeholder{
+  color: #4990E2;
+}
+
+.welcome-title{
+  color:#01A8E7;
+}
+
+@mixin pk-mail-titles($color){
+  font-family: 'Nunito', Helvetica, Arial, sans-serif !important;
+  font-size:18px;
+  text-transform: uppercase;
+  color:$color;
+}
+
+.title-subscr{
+  @include pk-mail-titles(#9A3CBC);
+}
+
+.title-plat{
+  @include pk-mail-titles(#FFA407);
+}
+
+ul{
+  list-style-image: url("https://s3.amazonaws.com/email-playkidsapp-com/vindi-emails/assets/welcome-subscription/check-ico.png") !important;
+}
+
+ul li{
+  padding:0 0 10px 7px !important;
+}
+
+.button-pk{
+  font-size:12px;
+  font-weight:700;
+  border-radius:100px;
+  background-color: #4990E2;
+  padding: 9px 14px 7px 14px;
+  color:#FFF !important; 
+}
+
+.ico-resp{
+  width:34px !important;
+  height:34px !important;
+}
