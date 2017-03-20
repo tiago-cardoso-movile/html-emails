@@ -1,5 +1,5 @@
 
-# Html Emails Templates @Movile @PlayKids using Foundation Framework
+# Html Emails Templates @PlayKids using Foundation Framework
 
 -- >> view emails in /src/pages/
 
