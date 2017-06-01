@@ -207,7 +207,7 @@ table.button table td{
 }
 .bullet-comments{
   margin-left: 50%;
-  margin-top:-1px !important; 
+  margin-top:-2px !important; 
 }
 table.callout {
   margin-bottom: 0px !important;
@@ -227,8 +227,8 @@ table.callout {
 
 // colors boxes
 
-$colorbox1: #52C1EF;
-$colorbox2: #F97615;
+$colorbox1: #F97615; 
+$colorbox2: #52C1EF;
 $colorbox3: #369B35;
 $colorbox4: #ED3E78;
 $colorbox5: #6638F0;
@@ -335,6 +335,7 @@ $colorbox6: #52C1EF;
   width: 12px !important; 
   height:16px !important;
   margin:12px 16px 0 0;
+  text-align: right;
 }
 
 .about{
@@ -349,6 +350,7 @@ $colorbox6: #52C1EF;
 .shape img{
   width: 230px !important;
   height: 38px !important;
+  text-align: center !important;
 }
 
 .about h3{
