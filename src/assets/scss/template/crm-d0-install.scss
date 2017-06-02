@@ -1,6 +1,12 @@
 //### email: CRM D0 - TRIAL ###
 
 // Body Styles 
+
+
+$text-dark: #41505c;
+$yellow-pk: #ffd642;
+$blue-pk:  #15d7ee;
+
 body,
 html, 
 .body {
@@ -64,23 +70,32 @@ table.button.google table td {
   background: #f3f3f3;
 }
 
-// CUSTOM  // 
+// ####################    CUSTOM     ##################### // 
+
+
+.open-browser{
+    font-size:14px !important;
+    @media only screen and (max-width: #{$global-breakpoint}) {
+    font-size:12px !important;
+  }
+}
 
 .font-bold{
   font-weight: 700;
 }
 
-.email-placeholder{
+.email-placeholder-ass{
   color:#41505c !important;
-  border: 1px solid #ffd642 !important;
+  background-color: #FFF;
   border-radius: 10px !important;
+  border: none !important; 
   width:98% !important;
-  padding:20px 0px 20px 0px !important;
+  padding:10px 0px 10px 0px !important;
   font-size:18px !important;
 }
 
-.welcome-title{
-    color:#41505c !important;
+.d0-install-title {
+    color: $text-dark !important;
     font-size:22px !important;
     font-weight: 900 !important;
     word-wrap: break-word !important;      
@@ -97,9 +112,14 @@ table.button.google table td {
   color: #13C0D7 !important;
 }
 
-.forgot-pass{
+.text__dark{
+  color:$text-dark !important;
+}
+
+.forgot-pass-2{
   a{
-      color:#ff3676 !important;
+      color:#FFF !important;
+      text-decoration: underline !important;
     }
 }
 
@@ -109,20 +129,17 @@ p{
   word-wrap: break-word !important;
 }
 
-.button-pk{
-  font-size:13px !important;
-  font-weight:700 !important;
+.button-pk-d0-install{
+  font-size:14px !important;
+  font-weight:900 !important;
   border-radius:100px !important;
-  background-color: #ff3676 !important;
+  background-color: $yellow-pk !important;
   padding: 20px 40px 20px 40px !important;
-  color:#FFF !important;   
+  color:$text-dark!important;   
   word-wrap: break-word !important;
+  letter-spacing: 0.1em !important;
 }
 
-.clickhere{
-  text-decoration: underline !important;
-  font-weight:700;
-}
 
 ul{
   padding:0 !important;
@@ -137,13 +154,6 @@ ul li{
   padding:0 0 10px 0 !important;
 }
 
-.ico-check{
-  width:10px !important;
-  height:8px !important;
-  margin-top:5px!important;
-  padding-right:8px !important;
-}
-
 .divider{
   width: 500px !important;
   height: 18px !important;
@@ -154,46 +164,35 @@ ul li{
     height:38px !important;
 }
 
-.header-crm{
+
+.divisao-1{
     width:580px !important;
 }
 
 .text-usubs{
+
   color:#C6C5C5 !important;
-  font-size:12px !important;
   a{
     color:#C6C5C5;
   }
 }
-.view-anohter-browser{
-  font-size:12px !important;
+
+.content__down{
+  width:488px !important;
 }
 
-@mixin box-color-content($color) {
-  max-width: 90% !important;
-  border-radius: 10px !important;
-  padding: 35px 10px 15px 10px !important;
-  background-color: $color !important;
-  border:none !important;
-  p{
-    color:#FFFFFF !important;
-    font-size:16px !important; 
-    word-wrap: break-word !important;    
-  }
+.install-d0-color-bg{
+  background-color: #ffd642 !important;
 }
 
-.box1{
-  @include box-color-content(#ff3676);
+.install-d0-color-bg-2{
+  background-color: $blue-pk !important;
 }
-.box2{
-  @include box-color-content(#8d62ff);
+.div-2-color-bg{
+  background-color: #ffd642 !important;
 }
-.box3{
-  @include box-color-content(#15d7ee);
-}
-.box4{
-  @include box-color-content(#ffd642);
-}
+
+
 
 .footer{
   p{
@@ -209,12 +208,14 @@ ul li{
   }
 }
 
-.title-now{
-     color:#41505c !important;
-     font-size:22px !important;
-     width:100%;      
-     font-weight: 900 !important; 
-     word-wrap: break-word !important;  
+
+.title2-install-d0{
+  @extend .title-now;
+  color:$text-dark !important;
+}
+.title3-install-d0{
+  @extend .title-now;
+  color:$text-dark !important;
 }
 
 .socialize{
@@ -226,4 +227,16 @@ h6{
 .thumb-jao{
   width:76px !important;
   height:77px !important;
+}
+
+
+.header-install-d0{
+  background-color: #EEE !important;
+}
+.micro-bar-divide{
+  width: 34px !important;
+  height: 3px !important;
+  border-radius: 100px !important;
+  background-color: #ffd642 !important;
+  display: block !important;
 }
