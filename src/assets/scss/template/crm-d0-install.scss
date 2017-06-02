@@ -21,7 +21,6 @@ html,
   word-wrap: break-word !important;
 }
 
-
 // Full Width Headers
 .header {
   background: #8a8a8a;
@@ -100,7 +99,7 @@ table.button.google table td {
 
 .forgot-pass{
   a{
-      color:#ff3676;
+      color:#ff3676 !important;
     }
 }
 
@@ -155,18 +154,19 @@ ul li{
     height:38px !important;
 }
 
-
 .header-crm{
-
     width:580px !important;
-  
 }
 
 .text-usubs{
   color:#C6C5C5 !important;
+  font-size:12px !important;
   a{
     color:#C6C5C5;
   }
+}
+.view-anohter-browser{
+  font-size:12px !important;
 }
 
 @mixin box-color-content($color) {
