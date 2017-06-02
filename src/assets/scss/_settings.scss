@@ -71,7 +71,7 @@ $h5-font-size: 20px;
 $h6-font-size: 18px;
 $header-margin-bottom: 10px;
 $paragraph-margin-bottom: 10px;
-$small-font-size: 80%;
+$small-font-size: 70%;
 $small-font-color: $dark-gray;
 $lead-font-size: $global-font-size * 1.25;
 $lead-line-height: 1.6;
@@ -98,14 +98,15 @@ $button-padding: (
   tiny: 4px 8px 4px 8px,
   small: 5px 10px 5px 10px,
   default: 8px 16px 8px 16px,
-  large: 10px 20px 10px 20px,
+  large: 8px 20px 8px 20px,
 );
 $button-font-size: (
   tiny: 10px,
   small: 12px,
-  default: 16px,
-  large: 20px,
+  default: 14px,
+  large: 14px,
 );
+
 $button-color: $white;
 $button-color-alt: $medium-gray;
 $button-font-weight: bold;

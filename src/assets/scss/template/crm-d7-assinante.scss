@@ -6,6 +6,8 @@
 $text-dark: #41505c;
 $yellow-pk: #ffd642;
 $blue-pk:  #15d7ee;
+$purple-pk: #8d62ff;
+$pink-pk: #ff3676;
 
 body,
 html, 
@@ -94,9 +96,9 @@ table.button.google table td {
   font-size:18px !important;
 }
 
-.d0-install-title {
+.d10-ass-title{
     color: $text-dark !important;
-    font-size:22px !important;
+    //font-size:px !important;
     font-weight: 900 !important;
     word-wrap: break-word !important;      
 }
@@ -130,26 +132,24 @@ p{
 }
 
 
-table.button.button-pk-d0-install table td {
+table.button.btn-d7-ass1 table td {
+  background-color: $purple-pk !important;
+  color: $text-dark !important; 
+  //letter-spacing: 0.1em !important;
+  font-size:14px !important; 
+  text-align: center;
+}
+
+table.button.btn-d7-ass2 table td {
   background-color: $yellow-pk !important;
   color: $text-dark !important; 
-  letter-spacing: 0.1em !important;
+  //letter-spacing: 0.1em !important;
+  font-size:14px !important; 
   span{
     color: $text-dark !important; 
   }
+  text-align:center;
 }
-
-// .button-pk-d0-install{
-//   font-size:14px !important;
-//   font-weight:900 !important;
-//   border-radius:100px !important;
-//   background-color: $yellow-pk !important;
-//   padding: 20px 40px 20px 40px !important;
-//   color:$text-dark!important;   
-//   word-wrap: break-word !important;
-//   letter-spacing: 0.1em !important;
-// }
-
 
 ul{
   padding:0 !important;
@@ -191,18 +191,28 @@ ul li{
   width:488px !important;
 }
 
-.install-d0-color-bg{
-  background-color: #ffd642 !important;
+
+
+.ass-d7-color-bg{
+  background-color: $yellow-pk !important;
 }
 
-.install-d0-color-bg-2{
-  background-color: $blue-pk !important;
+.ass-d7-color-bg-2{
+  background-color: #FFF !important;
 }
+.ass-d10-color-bg-3{
+  background-color: $blue-pk !important;
+  p{
+    padding: 0 20px 0 20px;
+  }
+}
+.ass-d10-color-bg-4{
+  background-color: $yellow-pk !important;
+}
+
 .div-2-color-bg{
   background-color: #ffd642 !important;
 }
-
-
 
 .footer{
   p{
@@ -223,11 +233,16 @@ ul li{
   @extend .title-now;
   color:$text-dark !important;
 }
+
 .title3-install-d0{
   @extend .title-now;
   color:$text-dark !important;
 }
 
+.title4-install-d0{
+  @extend .title-now;
+  color:$pink-pk !important;
+}
 .socialize{
   color: #41505c !important;
 }
@@ -243,17 +258,16 @@ h6{
 .header-install-d0{
   background-color: #EEE !important;
 }
-.micro-bar-divide{
-  width: 34px !important;
-  height: 3px !important;
-  border-radius: 100px !important;
-  background-color: #ffd642 !important;
-  display: block !important;
+
+.down-arrow{
+  width:35px !important;
+  height:34px !important;
 }
 
-
-
-
+.thumbs-guys{
+  width:132px !important;
+  height:131px !important;
+}
 
 
 
