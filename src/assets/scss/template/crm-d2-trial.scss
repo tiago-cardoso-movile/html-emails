@@ -1,14 +1,6 @@
-//### email: CRM D7 - ASSINANTE ###
-
-// Body Styles 
-
-
+//### email: CRM - TRIAL - D2 ###
 $text-dark: #41505c;
-$yellow-pk: #ffd642;
-$blue-pk:  #15d7ee;
-$purple-pk: #8d62ff;
-$pink-pk: #ff3676;
-
+// Body Styles 
 body,
 html, 
 .body {
@@ -28,6 +20,7 @@ html,
 .body-drip {
   word-wrap: break-word !important;
 }
+
 
 // Full Width Headers
 .header {
@@ -72,33 +65,24 @@ table.button.google table td {
   background: #f3f3f3;
 }
 
-// ####################    CUSTOM     ##################### // 
-
-
-.open-browser{
-    font-size:14px !important;
-    @media only screen and (max-width: #{$global-breakpoint}) {
-    font-size:12px !important;
-  }
-}
+// CUSTOM  // 
 
 .font-bold{
   font-weight: 700;
 }
 
-.email-placeholder-ass{
+.email-placeholder{
   color:#41505c !important;
-  background-color: #FFF;
+  border: 1px solid #ffd642 !important;
   border-radius: 10px !important;
-  border: none !important; 
   width:98% !important;
-  padding:10px 0px 10px 0px !important;
+  padding:20px 0px 20px 0px !important;
   font-size:18px !important;
 }
 
-.d10-ass-title{
-    color: $text-dark !important;
-    //font-size:px !important;
+.welcome-title{
+    color:#41505c !important;
+    font-size:22px !important;
     font-weight: 900 !important;
     word-wrap: break-word !important;      
 }
@@ -114,14 +98,9 @@ table.button.google table td {
   color: #13C0D7 !important;
 }
 
-.text__dark{
-  color:$text-dark !important;
-}
-
-.forgot-pass-2{
+.forgot-pass{
   a{
-      color:#FFF !important;
-      text-decoration: underline !important;
+      color:#ff3676;
     }
 }
 
@@ -131,24 +110,19 @@ p{
   word-wrap: break-word !important;
 }
 
-
-table.button.btn-d7-ass1 table td {
-  background-color: $purple-pk !important;
-  color: $text-dark !important; 
-  //letter-spacing: 0.1em !important;
-  font-size:14px !important; 
-  text-align: center;
+.button-pk{
+  font-size:13px !important;
+  font-weight:700 !important;
+  border-radius:100px !important;
+  background-color: #ff3676 !important;
+  padding: 20px 40px 20px 40px !important;
+  color:#FFF !important;   
+  word-wrap: break-word !important;
 }
 
-table.button.btn-d7-ass2 table td {
-  background-color: $yellow-pk !important;
-  color: $text-dark !important; 
-  //letter-spacing: 0.1em !important;
-  font-size:14px !important; 
-  span{
-    color: $text-dark !important; 
-  }
-  text-align:center;
+.clickhere{
+  text-decoration: underline !important;
+  font-weight:700;
 }
 
 ul{
@@ -164,6 +138,13 @@ ul li{
   padding:0 0 10px 0 !important;
 }
 
+.ico-check{
+  width:10px !important;
+  height:8px !important;
+  margin-top:5px!important;
+  padding-right:8px !important;
+}
+
 .divider{
   width: 500px !important;
   height: 18px !important;
@@ -175,43 +156,31 @@ ul li{
 }
 
 
-.divisao-1{
+.header-crm{
     width:580px !important;
 }
 
 .text-usubs{
-
   color:#C6C5C5 !important;
   a{
     color:#C6C5C5;
   }
 }
 
-.content__down{
-  width:488px !important;
-}
 
+.box1-d2-trial{
+  max-width: 90% !important;
+  border-radius: 10px !important;
+  padding: 35px 10px 35px 10px !important;
+  background-color: #fff9e2 !important;
+  border:1px solid #ffd642 !important;
 
-
-.ass-d7-color-bg{
-  background-color: $yellow-pk !important;
-}
-
-.ass-d7-color-bg-2{
-  background-color: #FFF !important;
-}
-.ass-d10-color-bg-3{
-  background-color: $blue-pk !important;
   p{
-    padding: 0 20px 0 20px;
-  }
-}
-.ass-d10-color-bg-4{
-  background-color: $yellow-pk !important;
-}
-
-.div-2-color-bg{
-  background-color: #ffd642 !important;
+    color: $text-dark !important;
+    font-size:16px !important; 
+    word-wrap: break-word !important;    
+  }  
+  
 }
 
 .footer{
@@ -228,24 +197,18 @@ ul li{
   }
 }
 
-
-.title2-install-d0{
-  @extend .title-now;
-  color:$text-dark !important;
+.title-now{
+     color:#41505c !important;
+     font-size:22px !important;
+     width:100%;      
+     font-weight: 900 !important; 
+     word-wrap: break-word !important;  
 }
 
-.title3-install-d0{
-  @extend .title-now;
-  color:$text-dark !important;
-}
-
-.title4-install-d0{
-  @extend .title-now;
-  color:$pink-pk !important;
-}
 .socialize{
   color: #41505c !important;
 }
+
 h6{
   color: #41505c !important;
 }
@@ -254,20 +217,21 @@ h6{
   height:77px !important;
 }
 
-
-.header-install-d0{
-  background-color: #EEE !important;
+.vertical-list{
+  .menu-item{
+    text-align: left !important;
+  }
 }
 
-.down-arrow{
-  width:35px !important;
-  height:34px !important;
+.bullet-checked{
+  width:19px !important;
+  height:19px !important;
+  vertical-align: top !important;
+  margin: 1px 10px 50px 0 !important;
 }
 
-.thumbs-guys{
-  width:132px !important;
-  height:131px !important;
-}
+
+
 
 
 

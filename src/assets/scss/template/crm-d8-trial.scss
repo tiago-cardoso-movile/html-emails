@@ -1,0 +1,33 @@
+//### email: CRM - TRIAL - D8 ###
+
+$text-dark: #41505c;
+$yellow-pk: #ffd642;
+$blue-pk:  #15d7ee;
+$purple-pk: #8d62ff;
+$pink-pk: #ff3676;
+
+
+////////////////////////////////
+
+
+.thumb-plan-d8-trial{
+  width:224px !important;
+  height: 153px !important;
+}
+.thumb-jr-d8-trial{
+  width:50%!important;
+}
+.thumb-plan2-d8-trial{
+  width:224px !important;
+  height: 445px !important;
+}
+
+table.button.button-pk-d8-trial table td {
+  background-color: $yellow-pk !important;
+  color: $text-dark !important; 
+  //letter-spacing: 0.1em !important;
+  span{
+    color: $text-dark !important; 
+  }
+  padding: 10px 15px !important;
+}
