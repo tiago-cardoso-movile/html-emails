@@ -1,0 +1,38 @@
+//### email: CRM - install - D2 ###
+
+$text-dark: #41505c;
+$yellow-pk: #ffd642;
+$blue-pk:  #15d7ee;
+$purple-pk: #8d62ff;
+$pink-pk: #ff3676;
+
+
+////////////////////////////////
+
+.line-divide{
+  max-width: 500px ;
+  height: 1.2px;
+  border-bottom: solid 1.2px #d0d0d0;
+  display: block;
+  margin: auto;
+}
+
+////////////////////////////////
+
+
+.team{
+  width:296px !important;
+}
+
+.body-drip{
+  p{
+    max-width: 400px;
+    margin:auto;
+  }
+}
+
+.footer {
+  p{
+    max-width: 100% !important;
+  }
+}

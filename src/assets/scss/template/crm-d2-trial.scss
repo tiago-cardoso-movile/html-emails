@@ -212,6 +212,7 @@ ul li{
 h6{
   color: #41505c !important;
 }
+
 .thumb-jao{
   width:76px !important;
   height:77px !important;
@@ -223,15 +224,33 @@ h6{
   }
 }
 
-.bullet-checked{
-  width:19px !important;
-  height:19px !important;
-  vertical-align: top !important;
-  margin: 1px 10px 50px 0 !important;
+
+@mixin boxes-color-content($color) {
+  max-width: 90% !important;
+  border-radius: 10px !important;
+  padding: 20px 10px 15px 10px !important;
+  background-color: $color !important;
+  border:none !important;
+  p{
+    font-size:16px !important; 
+    word-wrap: break-word !important;
+    color: #FFF !important;   
+ 
+  }
 }
 
-
-
+.box1-d2{
+  @include boxes-color-content(#ff3676);
+}
+.box2-d2{
+  @include boxes-color-content(#8d62ff);
+}
+.box3-d2{
+  @include boxes-color-content(#15d7ee);
+}
+.box4-d2{
+  @include boxes-color-content(#ffd642);
+}
 
 
 

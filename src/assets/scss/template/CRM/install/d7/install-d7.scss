@@ -1,0 +1,33 @@
+//### email: CRM - install - D7 ###
+
+$text-dark: #41505c;
+$yellow-pk: #ffd642;
+$blue-pk:  #15d7ee;
+$purple-pk: #8d62ff;
+$pink-pk: #ff3676;
+
+
+////////////////////////////////
+
+.install-d5-color-bg{
+  background-color: $blue-pk !important;
+}
+
+////////////////////////////////
+
+.trophy{
+  width: 200px !important;
+}
+
+.title-top-3{
+	color: $text-dark;
+	max-width: 300px;
+	margin: auto;
+	font-size: 24px !important;
+}
+
+.box-block-yellow{
+	h5{
+		color: $text-dark !important;
+	}
+}
