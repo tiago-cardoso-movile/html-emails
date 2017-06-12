@@ -1,3 +1,13 @@
+
+//COLORS
+$text-dark: #41505c;
+$yellow-pk: #ffd642;
+$blue-pk:  #15d7ee;
+$purple-pk: #8d62ff;
+$pink-pk: #ff3676;
+
+
+
 .box-block-yellow{
   border-radius: 10px !important;
   padding: 35px 10px 35px 10px !important;
@@ -22,4 +32,60 @@
     font-size:16px !important; 
     word-wrap: break-word !important;    
   }  	
+}
+
+.header-default{
+  background-color: #EEE !important;
+}
+
+
+//// ### BUTTONS #### ////
+
+table.button.button-pk-yellow table td{
+  background-color: $yellow-pk !important;
+  letter-spacing: 0.1em !important;
+  line-height: 20px !important;
+  text-align: center !important;
+  a{
+    text-align: center !important;
+  }
+  span{
+    color: $text-dark !important; 
+  }
+}
+
+table.button.button-pk-blue table td{
+  background-color: $blue-pk !important;
+  letter-spacing: 0.1em !important;
+  line-height: 20px !important;
+  a{
+    text-align: center !important;
+  }  
+  span{
+    color: $text-dark !important; 
+  }
+}
+
+table.button.button-pk-purple table td{
+  background-color: $purple-pk !important;
+  letter-spacing: 0.1em !important;
+  line-height: 20px !important;
+  a{
+    text-align: center !important;
+  }  
+  span{
+    color: #FFFFFF !important; 
+  }
+}
+
+table.button.button-pk-pink table td{
+  background-color: $pink-pk !important;
+  letter-spacing: 0.1em !important;
+  line-height: 20px !important;
+  a{
+    text-align: center !important;
+  }  
+  span{
+    color: #FFFFFF !important; 
+  }
 }

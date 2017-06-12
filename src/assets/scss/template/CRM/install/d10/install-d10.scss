@@ -1,0 +1,35 @@
+//### email: CRM - install - D10 ###
+
+$text-dark: #41505c;
+$yellow-pk: #ffd642;
+$blue-pk:  #15d7ee;
+$purple-pk: #8d62ff;
+$pink-pk: #ff3676;
+
+
+////////////////////////////////
+
+.install-d10-color-bg{
+  background-color: $blue-pk !important;
+}
+
+////////////////////////////////
+
+
+.title-top-3{
+	color: $text-dark;
+	max-width: 300px;
+	margin: auto;
+	font-size: 24px;
+
+	 @media only screen and (max-width: #{$global-breakpoint}) {
+	   font-size: 60px !important;
+	 }	
+}
+
+.box-block-yellow{
+	h5{
+		color: $text-dark;
+	}
+}
+
