@@ -90,3 +90,25 @@ table.button.button-pk-pink table td{
     color: #FFFFFF !important; 
   }
 }
+
+.highlight-pink {
+  color: $pink-pk;
+}
+
+.highlight-dark-blue {
+  color: #3C75E6;
+}
+
+/// ### IMG TREATMENT ### ///
+
+.max-size-img{ 
+  width: 480px !important;
+}
+
+.btn-img-max-size {
+  width: 280px !important;
+}
+
+.btn-img-max-size-2 {
+  width: 320px !important;
+}

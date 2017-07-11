@@ -1,14 +1,5 @@
-//### email: CRM D0 - TRIAL ###
-
-
-//CUSTOM//
-
-.trial-d0-color-bg{
-  background-color: #2EB4F8;
-}
-
-//-------------OLD CSS---------------//
-
+//### email: KIWI NOVA SENHA ###
+$text-dark: #41505c;
 // Body Styles 
 body,
 html, 
@@ -24,10 +15,23 @@ html,
 .container.header p {
   font-size: 12px;
   color: #333333; 
+  word-wrap: break-word !important;
 }
 
 .body-drip {
-  word-wrap: break-word !important;
+  h1,h2,h3,h4,h5,h6{
+    word-wrap: break-word !important;
+    font-size: 100px;
+  }
+    word-wrap: break-word !important;
+    p .data-placeholder-kiwi{
+      color:#41505c !important;
+      border-radius: 10px !important;
+      width:80% !important;
+      padding:20px 10px 20px 10px !important;
+      font-size:18px !important;
+      background-color:#eeeeee !important;
+    }
 }
 
 
@@ -76,22 +80,14 @@ table.button.google table td {
 
 // CUSTOM  // 
 
+.body-drip{
 
-.trial-d0-color-bg{
-  background-color: #2EB4F8;
-}
+  }
+
+
 
 .font-bold{
   font-weight: 700;
-}
-
-.email-placeholder-trial{
-  color:#41505c !important;
-  background-color: #eeeeee !important;
-  border-radius: 10px !important;
-  width:98% !important;
-  padding:20px 0px 20px 0px !important;
-  font-size:18px !important;
 }
 
 .welcome-title{
@@ -171,9 +167,7 @@ ul li{
 
 
 .header-crm{
-
     width:580px !important;
-  
 }
 
 .text-usubs{
@@ -183,30 +177,20 @@ ul li{
   }
 }
 
-@mixin box-color-content($color) {
+
+.box1-d2-trial{
   max-width: 90% !important;
   border-radius: 10px !important;
-  padding: 35px 10px 15px 10px !important;
-  background-color: $color !important;
-  border:none !important;
-  p{
-    font-size:16px !important; 
-    word-wrap: break-word !important;   
- 
-  }
-}
+  padding: 35px 10px 35px 10px !important;
+  background-color: #fff9e2 !important;
+  border:1px solid #ffd642 !important;
 
-.box1{
-  @include box-color-content(#ff3676);
-}
-.box2{
-  @include box-color-content(#8d62ff);
-}
-.box3{
-  @include box-color-content(#15d7ee);
-}
-.box4{
-  @include box-color-content(#ffd642);
+  p{
+    color: $text-dark !important;
+    font-size:16px !important; 
+    word-wrap: break-word !important;    
+  }  
+  
 }
 
 .footer{
@@ -234,6 +218,7 @@ ul li{
 .socialize{
   color: #41505c !important;
 }
+
 h6{
   color: #41505c !important;
 }
@@ -241,4 +226,20 @@ h6{
   width:76px !important;
   height:77px !important;
 }
+
+.vertical-list{
+  .menu-item{
+    text-align: left !important;
+  }
+}
+
+.bullet-checked{
+  width:19px !important;
+  height:19px !important;
+  vertical-align: top !important;
+  margin: 1px 10px 50px 0 !important;
+}
+
+
+
 
