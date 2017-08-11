@@ -5,7 +5,7 @@ $yellow-pk: #ffd642;
 $blue-pk:  #15d7ee;
 $purple-pk: #8d62ff;
 $pink-pk: #ff3676;
-
+$orange-pk: #F79621;
 
 
 .box-block-yellow{
@@ -24,7 +24,7 @@ $pink-pk: #ff3676;
 
 .box-block-gray{
   border-radius: 10px !important;
-  padding: 35px 10px 35px 10px !important;
+  padding: 20px 20px 20px 20px !important;
   background-color: #eeeeee !important;
 
   p{
@@ -32,6 +32,14 @@ $pink-pk: #ff3676;
     font-size:16px !important; 
     word-wrap: break-word !important;    
   }  	
+}
+
+.box-block-light-gray{
+  border-radius: 10px !important;
+  padding: 20px 20px 20px 20px !important;
+  background-color: #f1f1f1 !important; 
+  margin-left: 20px !important;
+  margin-right: 20px !important;
 }
 
 .header-default{
@@ -91,13 +99,39 @@ table.button.button-pk-pink table td{
   }
 }
 
+table.button.button-pk-orange table td{
+  background-color: $orange-pk !important;
+  letter-spacing: 0.1em !important;
+  line-height: 20px !important;
+  a{
+    text-align: center !important;
+  }  
+  span{
+    color: #FFFFFF !important; 
+  }
+}
+
 .highlight-pink {
   color: $pink-pk;
+}
+
+.highlight-orange {
+  color: $orange-pk;
+}
+
+.highlight-purple {
+  color: $purple-pk;
+}
+
+.highlight-explorer {
+  color: #00ADBB;
 }
 
 .highlight-dark-blue {
   color: #3C75E6;
 }
+
+
 
 /// ### IMG TREATMENT ### ///
 
@@ -106,9 +140,59 @@ table.button.button-pk-pink table td{
 }
 
 .btn-img-max-size {
-  width: 280px !important;
+  width: 300px !important;
 }
 
 .btn-img-max-size-2 {
   width: 320px !important;
+}
+
+.btn-img-max-size-3 {
+  width: 260px !important;
+}
+
+.btn-img-max-size-4 {
+  width: 140px !important;
+}
+
+/// ### TESTIMONIAL ### ///
+
+.testimonial-yellow-1 {
+  background-color: #FFF7DC;
+  border-radius: 20px;
+  border: solid 2px #FFD642;
+  padding: 20px;
+  margin-left: 10% !important;
+  margin-right: 10% !important;
+  width: 60% center;
+
+}
+
+/// ### CUSTOM LABELS ### ///
+
+.reativ-label {
+  background-color: #eeeeee;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.reativ-label-purple {
+  background-color: #8D62FF;
+  padding: 15px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.reativ-label-pink {
+  background-color: $pink-pk;
+  padding: 15px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.reativ-label-dotted{
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  border: dotted 3px $purple-pk;
 }
