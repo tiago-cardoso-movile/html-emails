@@ -1,0 +1,26 @@
+.box-pais{
+  border-radius: 10px !important;
+  padding: 35px 10px 35px 10px !important;
+  background-color: #FFFFFF !important;
+  border:1px solid #CCCCCC !important;
+
+  p{
+    color: $text-dark !important;
+    font-size:16px !important; 
+    word-wrap: break-word !important;    
+  }  
+  
+}
+
+h1{
+	color:$text-dark !important;
+	font-size:24px !important;
+	font-weight: bold; 
+	width: 80%;
+}
+
+h2{
+	color: $text-dark !important;
+	font-weight: bold !important;
+	font-size:24px !important;
+}
