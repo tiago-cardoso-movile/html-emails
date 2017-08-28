@@ -1,14 +1,3 @@
-//### email: CRM D0 - TRIAL ###
-
-
-//CUSTOM//
-
-.trial-d0-color-bg{
-  background-color: #2EB4F8;
-}
-
-//-------------OLD CSS---------------//
-
 // Body Styles 
 body,
 html, 
@@ -29,7 +18,6 @@ html,
 .body-drip {
   word-wrap: break-word !important;
 }
-
 
 // Full Width Headers
 .header {
@@ -76,26 +64,22 @@ table.button.google table td {
 
 // CUSTOM  // 
 
-
-.trial-d0-color-bg{
-  background-color: #2EB4F8;
-}
-
 .font-bold{
   font-weight: 700;
 }
 
-.email-placeholder-trial{
+.email-placeholder-ass{
   color:#41505c !important;
-  background-color: #eeeeee !important;
+  background-color: #FFF;
   border-radius: 10px !important;
+  border: none !important; 
   width:98% !important;
-  padding:20px 0px 20px 0px !important;
+  padding:10px 0px 10px 0px !important;
   font-size:18px !important;
 }
 
-.welcome-title{
-    color:#41505c !important;
+.funny-title{
+    color:#FFF !important;
     font-size:22px !important;
     font-weight: 900 !important;
     word-wrap: break-word !important;      
@@ -112,9 +96,14 @@ table.button.google table td {
   color: #13C0D7 !important;
 }
 
-.forgot-pass{
+.text__white{
+  color:#FFF !important;
+}
+
+.forgot-pass-2{
   a{
-      color:#ff3676;
+      color:#FFF !important;
+      text-decoration: underline !important;
     }
 }
 
@@ -169,11 +158,11 @@ ul li{
     height:38px !important;
 }
 
-
-.header-crm{
-
+.olha-so{
+    width:95px !important;
+}
+.divisao-1{
     width:580px !important;
-  
 }
 
 .text-usubs{
@@ -183,31 +172,18 @@ ul li{
   }
 }
 
-@mixin box-color-content($color) {
-  max-width: 90% !important;
-  border-radius: 10px !important;
-  padding: 35px 10px 15px 10px !important;
-  background-color: $color !important;
-  border:none !important;
-  p{
-    font-size:16px !important; 
-    word-wrap: break-word !important;   
- 
-  }
+.content__down{
+  width:488px !important;
 }
 
-.box1{
-  @include box-color-content(#ff3676);
+.div-1-color-bg{
+  background-color: #8d62ff !important;
 }
-.box2{
-  @include box-color-content(#8d62ff);
+.div-2-color-bg{
+  background-color: #ffd642 !important;
 }
-.box3{
-  @include box-color-content(#15d7ee);
-}
-.box4{
-  @include box-color-content(#ffd642);
-}
+
+
 
 .footer{
   p{
@@ -226,9 +202,18 @@ ul li{
 .title-now{
      color:#41505c !important;
      font-size:22px !important;
-     width:100%;      
+     width:98% !important;      
      font-weight: 900 !important; 
      word-wrap: break-word !important;  
+}
+
+.title-criancas{
+  @extend .title-now;
+  color:#8d62ff !important;
+}
+.title-pais{
+  @extend .title-now;
+  color:#ff3676 !important;
 }
 
 .socialize{
@@ -242,3 +227,7 @@ h6{
   height:77px !important;
 }
 
+.header-ass-d0 {
+  background-color: #8D62FF!important;
+  width: 100%;
+}
